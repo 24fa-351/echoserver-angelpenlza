@@ -1,7 +1,7 @@
 s: compile run clean
 
-compile: serverv4.c 
-	gcc serverv4.c -o echo_s
+compile: echo.c 
+	gcc echo.c -o echo_s
 
 run: 
 	./echo_s -p 8080
